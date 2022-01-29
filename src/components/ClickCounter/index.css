@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+.page-container {
+  height: 100vh;
+  background-color: #f1f5f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #2d3a35;
+  margin: 3px;
+  text-align: center;
+}
+
+.counter {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #c20a72;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #2d3a35;
+}
+
+.button {
+  background-color: #007bff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding: 5px 8px;
+  border-radius: 10px;
+}
